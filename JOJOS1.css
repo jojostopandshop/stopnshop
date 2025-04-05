@@ -43,7 +43,7 @@ body{
 	
 }
 	.galler{
-	width: 950px;
+	display:flex;
 	float: center;
 	margin-left: 0px;
 	}
