@@ -182,5 +182,19 @@ text-align: center;
 text-align: center; 
 color:#188052;	
 }
-
-
+.wrapper-mai{
+	font-family: "Times New Roman";
+	font-weight: 200;
+	width: 1000px;
+	margin: 0 auto;
+}
+.google-map {
+     padding-bottom: 50%;
+}
+.google-map iframe {
+    height: 350px;
+	width: 450px;
+	margin-left:0px;
+    left: 0;
+    top: 0;
+}
