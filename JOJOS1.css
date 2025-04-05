@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 body{
  	background-color:aliceblue;
 }
@@ -197,4 +200,208 @@ color:#188052;
 	margin-left:0px;
     left: 0;
     top: 0;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body{
+ 	background-color:aliceblue;
+}
+
+.flex {
+  display: flex;	
+}
+.flex > * {
+  flex: 50%;
+
+}
+.logo {
+	padding-left: 30px;
+    width:140px;
+	float:left;
+	  
+}
+.header {
+  
+  padding-top: 50px;
+  padding-bottom:110px;
+  padding-left: 20px;
+  margin-left: 0px;
+  background-size: 100%;
+  background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
+}
+.container {
+
+ background-image:url("images/background.png");
+ background-color:#332F2C; 
+ background-size: 100%;
+ display:block;
+ flex-direction:row;
+ padding-bottom: 50px;
+ padding-top: 50px;
+}
+.link_about{
+	
+	word-spacing: 0px;
+    margin-right: 20px;
+    font-weight: 200;
+	float:right;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+  margin-left: 10px;	
+
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.section-one{
+  font-family:"Times New Roman";
+  font-size: 20px;
+  color:#ffffff;
+  font-weight: 200;
+  margin-left: 270px; 
+  margin-bottom: 150px;
+	align: center;
+} 
+
+.section-two{
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color:#ffffff;
+  font-weight: 200;
+  margin-left: 270px;
+  margin-top: 150px;
+}
+
+.footer{ 
+  font-family: "Times New Roman";
+  background-color:#332F2C;
+  font-size: 20px;
+  color:#ffffff;
+  font-weight: 200;
+  padding-top: 50px;
+
+}
+ 
+.text_column {
+    font-family: "Times New Roman";
+	padding-bottom: 20px;
+	font-size: 24px;
+    color:#056F40;
+    font-weight: 200;
+	text-align: center; 
+
+}
+
+
+ /* Each section will take up 33.33% of the container space */
+.flex{
+	flex:33.33%;
+    padding-top: 90px;
+}
+	
+.text_column_vape {
+
+	margin-left: 75px;
+    font-family: "Times New Roman";
+	font-size: 24px;
+    color:#056F40;
+    font-weight: 200;
+    text-align:center;
+		
+
+	
+
+}
+.vape  {
+    display:flex;  
+	margin-left:115px;
+	margin-bottom: 90px;
+	margin-top: 0px;
+	width:200px;
+
+	
+}
+
+
+/* Body */
+.body {
+	font-family: "Times New Roman";
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+	
+
+ .about {
+	margin-left: 0px;
+	margin-top: 20px;
+	padding-top:0px;
+
+}
+
+.galler {
+	width: 100%;
+	float: center;
+
+	background: #000000;
+	margin-left: 0px;
+	
+}
+
+
+.name {
+    margin-left:70px}
+.message {
+	margin-left:45px;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+.submit {
+		margin-left:140px;
+
+}
+.column{
+	width:550px;
+	height: 300px;
+}
+.name_store{
+text-align: center; 
+}
+
+.about{
+text-align: center; 
+color:#188052;	
+}
+.wrapper-mai{
+	font-family: "Times New Roman";
+	font-weight: 200;
+	width: 1000px;
+	margin: 0 auto;
+}
+.google-map {
+     padding-bottom: 50%;
+}
+.google-map iframe {
+    height: 350px;
+	width: 450px;
+	margin-left:0px;
+    left: 0;
+    top: 0;
+}
+	
+	
 }
