@@ -20,10 +20,10 @@ body{
 }
 
 
-.header {
+.header-main {
  
   
-  min-width: 768px;
+  width:100%;
   padding-top: 50px;
   padding-bottom:110px;
   padding-left: 20px;
@@ -34,8 +34,9 @@ body{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .header {
-	  
+  .header-main {
+  
+  width:100%;  
   padding-top: 50px;
   padding-bottom:110px;
   padding-left: 20px;
@@ -91,7 +92,7 @@ body{
   font-weight: 200;
   margin-left: 270px; 
   margin-bottom: 150px;
-	align: center;
+  align: center;
 } 
 
 .section-two{
