@@ -203,17 +203,16 @@ color:#188052;
  .wrapper-main{
 	font-family: "Times New Roman";
 	font-weight: 200;
-	width: 75%;
+	width: 65%;
 	}
 	.column{
-	width:75%;
+	width:65%;
 	height: 300px;
-	padding-left: 3px;
+	padding-left: 1px;
 	}
 .row {
   display:flex;
-  width: 75;
-  margin-left: 3px;
+  width: 65;
 }
 }
 
@@ -227,13 +226,13 @@ color:#188052;
  .column{
 	width:75%;
 	height: 300px;
-	padding-left: 3px;
+	padding-left: 1px;
 	 
 }
 	.row {
   display:flex;
   width: 75;
-  margin-left: 3px;
+
 }
 }
 /* Small devices (portrait tablets and large phones, 768px and up) */
@@ -242,7 +241,7 @@ color:#188052;
  .wrapper-main{
 	font-family: "Times New Roman";
 	font-weight: 200;
-	width: 100%;
+	width: 90%;
 }
 	.column{
 	width:85%;
@@ -263,13 +262,13 @@ color:#188052;
 	width: 100%;
 }
 	.column{
-	width:85%;
+	width:90%;
 	height: 300px;
 	padding-left: 10px;
 	}
 	.row {
   display:flex;
-  width: 85%;
+  width: 90%;
 }
 }
 /* Small devices (portrait tablets and large phones, 1200px and up) */
@@ -281,13 +280,13 @@ color:#188052;
 	width: 100%;
 }
 	.column{
-	width:85%;
+	width:95%;
 	height: 300px;
 	padding-left: 10px;
 	}
 	.row {
   display:flex;
-  width: 85;
+  width: 95;
 }
 }
 	
