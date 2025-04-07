@@ -206,13 +206,13 @@ color:#188052;
 	width: 100%;
 	}
 	.column{
-	width:100%;
+	width:75%;
 	height: 300px;
 	padding-left: 3px;
 	}
 .row {
   display:flex;
-  width: auto;
+  width: 75;
   margin-left: 3px;
 }
 }
@@ -225,14 +225,14 @@ color:#188052;
 	width: 100%;
 	}
  .column{
-	width:100%;
+	width:75%;
 	height: 300px;
 	padding-left: 3px;
 	 
 }
 	.row {
   display:flex;
-  width: auto;
+  width: 75;
   margin-left: 3px;
 }
 }
@@ -242,17 +242,17 @@ color:#188052;
  .wrapper-main{
 	font-family: "Times New Roman";
 	font-weight: 200;
-	width: 100%;
+	width: 75%;
 }
 	.column{
-	width:100%;
+	width:75%;
 	height: 300px;
-	padding-left: 10px;
+	padding-left: 3px;
 }
 	.row {
   display:flex;
-  width: auto;
-  margin-left: 10px;
+  width: 75;
+  margin-left: 3px;
 }
 }
 /* Small devices (portrait tablets and large phones, 992px and up) */
@@ -264,14 +264,14 @@ color:#188052;
 	width: 100%;
 }
 	.column{
-	width:100%;
+	width:75%;
 	height: 300px;
-	padding-left: 10px;
+	padding-left: 3px;
 	}
 	.row {
   display:flex;
-  width: auto;
-  margin-left: 10px;
+  width: 75%;
+  margin-left: 3px;
 }
 }
 /* Small devices (portrait tablets and large phones, 1200px and up) */
@@ -283,14 +283,14 @@ color:#188052;
 	width: 100%;
 }
 	.column{
-	width:100%;
+	width:75%;
 	height: 300px;
-	padding-left: 10px;
+	padding-left: 3px;
 	}
 	.row {
   display:flex;
-  width: auto;
-  margin-left: 10px;
+  width: 75;
+  margin-left: 3px;
 }
 }
 	
