@@ -206,7 +206,7 @@ color:#188052;
 	width: 90%;
 	}
 	.flex > * {
-  flex: 100%;
+  flex: 0%;
 	}
 	.column{
 	width:65%;
