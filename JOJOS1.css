@@ -214,18 +214,12 @@ color:#188052;
 	padding-left: 1px;
 	}
 
-.section-two{
-  font-family: "Times New Roman";
-  font-size: 16px;
-  color:#ffffff;
-  font-weight: 200;
-  margin-left: 70px;
-  margin-top: 100px;
-}
+
 	.flex{
 	flex:100%;
     padding-top: 20px;
     flex-direction:column;
+	width: auto;
 	}
 	.vape  {
     dsipaly: flex;
@@ -239,22 +233,57 @@ color:#188052;
 }
 	.text_column_vape {
 
-	margin-left: 75px;
     font-family: "Times New Roman";
 	font-size: 14px;
     color:#056F40;
-    font-weight: 100;
+    font-weight: 130;
     text-align:center;
 	}
 	.text_column {
     font-family: "Times New Roman";
 	padding-bottom: 14px;
-	font-size: 24px;
+	font-size: 14px;
     color:#056F40;
-    font-weight: 200;
-	text-align: center; 
+    font-weight: 130;
+	text-align: center;
 
 }
+	.container {
+
+ background-image:url("images/background.png");
+ background-color:#332F2C; 
+ background-size: cover;
+ display: flex;
+ flex-direction:column;
+ padding-bottom: 50px;
+ padding-top: 50px;
+}
+	.section-one{
+  font-family:"Times New Roman";
+  font-size: 16px;
+  color:#ffffff;
+  font-weight: 150;
+  margin-left: 0px; 
+  margin-bottom: 100px;
+  align: center;
+} 
+	.section-two{
+  font-family: "Times New Roman";
+  font-size: 16px;
+  color:#ffffff;
+  font-weight: 200;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+	.google-map {
+     padding-bottom: 10%;
+}
+	.google-map iframe {
+    height: auto;
+	width: auto;
+	margin-left:0px;
+}
+
 }
 /* Small devices (portrait tablets and large phones, 601px and up) */
 @media only screen and (min-width: 601px) {
