@@ -203,7 +203,7 @@ color:#188052;
  .wrapper-main{
 	font-family: "Times New Roman";
 	font-weight: 200;
-	width: 80%;
+	width: 85%;
 	}
 	.column{
 	width:65%;
@@ -220,7 +220,7 @@ color:#188052;
   margin-top: 100px;
 }
 	.flex{
-	flex:50%;
+	flex:100%;
     padding-top: 20px;
     flex-direction:column;
 	}
@@ -230,7 +230,7 @@ color:#188052;
 	margin-left:40px;
 	margin-bottom: 30px;
 	margin-top: 0px;
-	width:300px;
+	width:auto;
 
 	
 }
@@ -243,6 +243,15 @@ color:#188052;
     font-weight: 100;
     text-align:center;
 	}
+	.text_column {
+    font-family: "Times New Roman";
+	padding-bottom: 14px;
+	font-size: 24px;
+    color:#056F40;
+    font-weight: 200;
+	text-align: center; 
+
+}
 }
 /* Small devices (portrait tablets and large phones, 601px and up) */
 @media only screen and (min-width: 601px) {
