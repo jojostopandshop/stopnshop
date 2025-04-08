@@ -222,6 +222,7 @@ color:#188052;
 	.flex{
 	flex:50%;
     padding-top: 30px;
+    flex-direction: column;
 	}
 	.vape  {
     display:block;  
