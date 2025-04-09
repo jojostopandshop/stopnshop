@@ -88,7 +88,7 @@ body{
 	font-size: 24px;
     color:#056F40;
     font-weight: 200;
-	text-align: center; 
+	text-align: center;
 
 }
 
@@ -99,18 +99,22 @@ body{
     padding-top: 90px;
 }
 	
-.text_column_vape {
-
-	margin-left: 75px;
-    font-family: "Times New Roman";
+.image_column_vape {
+    display:flex;
+	flex-direction: column;
+	width:550px;
+	height: 350px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-left: 67px;
+  
+}
+.text_column_vape{
+	font-family: "Times New Roman";
 	font-size: 24px;
     color:#056F40;
     font-weight: 200;
-    text-align:center;
-		
-
-	
-
+	text-align: center;
 }
 .vape  {
     display:flex;  
@@ -118,9 +122,7 @@ body{
 	margin-bottom: 90px;
 	margin-top: 0px;
 	width:0px;
-	align-items:flex-start;
-
-	
+	align-items:flex-start;	
 }
 
 
@@ -185,15 +187,14 @@ color:#188052;
 	font-weight: 200;
 	width: 1000px;
 }
+
+
 .google-map {
-     padding-bottom: 50%;
-}
-.google-map iframe {
     height: 350px;
 	width: 450px;
-	margin-left:0px;
-    left: 0;
-    top: 0;
+	padding-bottom: 0%;
+	margin-left:100px;
+	margin-top: 120px;
 }
 
 
@@ -203,8 +204,17 @@ color:#188052;
  .wrapper-main{
 	font-family: "Times New Roman";
 	font-weight: 150;
-	width: 90%;
+	width: 100%;
 	}
+	
+	
+	.logo {
+	padding-left: 30px;
+    width:20%;
+	float:left;
+	}
+	
+
 	.flex > * {
   flex: 0%;
 	}
@@ -227,9 +237,7 @@ color:#188052;
 	margin-left:40px;
 	margin-bottom: 30px;
 	margin-top: 0px;
-	width:auto;
-
-	
+	width:auto;	
 }
 	.text_column_vape {
 
@@ -237,8 +245,18 @@ color:#188052;
 	font-size: 14px;
     color:#056F40;
     font-weight: 130;
-    text-align:center;
+    text-align: center;
 	}
+	.image_column_vape {
+    display:flex;
+	flex-direction: column;
+	width:80%;
+	height: 98%;
+	padding-top: 10%;
+	padding-bottom: 20px;
+	margin-left: 47px;
+  
+}
 	.text_column {
     font-family: "Times New Roman";
 	padding-bottom: 14px;
@@ -252,38 +270,41 @@ color:#188052;
 
  background-image:url("images/background.png");
  background-color:#332F2C; 
- background-size: cover;
- display: flex;
+ background-size:contain;
+ display:flex;
  flex-direction:column;
- padding-bottom: 50px;
- padding-top: 50px;
+ padding-bottom: 0px;
+ padding-top: 0px;
+		
 }
-	.section-one{
-  font-family:"Times New Roman";
-  font-size: 16px;
-  color:#ffffff;
-  font-weight: 150;
-  margin-left: 0px; 
-  margin-bottom: 100px;
-  align: center;
-} 
+	
 	.section-two{
   font-family: "Times New Roman";
   font-size: 16px;
   color:#ffffff;
   font-weight: 200;
   margin-left: 70px;
-  margin-top: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
-	.google-map {
-     padding-bottom: 10%;
-}
-	.google-map iframe {
-    height: auto;
-	width: auto;
-	margin-left:0px;
-}
+.google-map {
 
+    height: 100%;
+	width: 80%;
+	padding-bottom: 0%;
+	margin-left:40px;
+	margin-top: 0px;
+
+    }
+
+.google-map iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+	width: 100%;
+       
+	}
 }
 /* Small devices (portrait tablets and large phones, 601px and up) */
 @media only screen and (min-width: 601px) {
