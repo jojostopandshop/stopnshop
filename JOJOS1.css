@@ -219,8 +219,8 @@ color:#188052;
   flex: 0%;
 	}
 	.column{
-	width:65%;
-	height: 300px;
+	width:98%;
+	height: 100%;
 	padding-left: 1px;
 	}
 
@@ -234,7 +234,7 @@ color:#188052;
 	.vape  {
     dsipaly: flex;
 	flex-direction:column;
-	margin-left:40px;
+	margin-left:10px;
 	margin-bottom: 30px;
 	margin-top: 0px;
 	width:auto;	
