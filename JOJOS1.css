@@ -35,7 +35,7 @@ body{
  background-color:#332F2C; 
  background-size: cover;
  display: flex;
- flex-direction:row;
+ flex-direction: row;
  padding-bottom: 50px;
  padding-top: 50px;
 }
@@ -47,29 +47,17 @@ body{
 	float:right;
 	color: white;
 	font-size: 20px;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
-
-
-.section-one{
-  font-family:"Times New Roman";
-  font-size: 20px;
-  color:#ffffff;
-  font-weight: 200;
-  margin-left: 270px; 
-  margin-bottom: 150px;
-  align: center;
-} 
 
 .section-two{
   font-family: "Times New Roman";
   font-size: 20px;
   color:#ffffff;
   font-weight: 200;
-  margin-left: 270px;
-  margin-top: 150px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 .footer{ 
@@ -83,15 +71,15 @@ body{
 }
  
 .text_column {
-    font-family: "Times New Roman";
-	padding-bottom: 20px;
-	font-size: 24px;
-    color:#056F40;
+   
+	font-size: 22px;
+    color:#483E3E;
     font-weight: 200;
-	text-align: center;
-
+	text-align:center;
+	text-emphasis-position: above; 
+	font-style:oblique;
+	padding-bottom: 20px;
 }
-
 
  /* Each section will take up 33.33% of the container space */
 .flex{
@@ -112,8 +100,9 @@ body{
 .text_column_vape{
 	font-family: "Times New Roman";
 	font-size: 24px;
-    color:#056F40;
+    color:#483E3E;
     font-weight: 200;
+	font-style:oblique;
 	text-align: center;
 }
 .vape  {
@@ -125,7 +114,6 @@ body{
 	align-items:flex-start;	
 }
 
-
 /* Body */
 .body {
 	font-family: "Times New Roman";
@@ -135,16 +123,15 @@ body{
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
-}
-
-	
+}	
 
  .about {
 	margin-left: 0px;
-	margin-top: 20px;
+	margin-top: 23px;
 	padding-top:0px;
+	font-size: 23px;	
     text-align: center; 
-    color:#188052;	
+    color:#483E3E;	
 }
 
 .galler {
@@ -166,8 +153,6 @@ body{
 .row {
   display:flex;
   margin-left: 10px;
-
-
 }
 
 .column{
@@ -184,60 +169,98 @@ text-align: center;
 	font-weight: 200;
 	width: 1000px;
 }
-
+.location{
+	color:white;
+	text-align: center;
+	margin-left: 150px;
+}
 .google-map {
     height: 350px;
 	width: 450px;
 	padding-bottom: 0%;
-	margin-left:100px;
-	margin-top: 120px;
+	margin-left:280px;
+	margin-right: 95px;
+	margin-top: 0px;
 }
-
+.google-map iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+	width: 100%;
+       
+	}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
- .wrapper-main{
+.wrapper-main{
 	font-family: "Times New Roman";
 	font-weight: 150;
 	width: 100%;
 	}
 	
+.header-main {  
+  width:100%;
+  height: 35%;
+  padding-top: 0px;
+  padding-bottom:110px;
+  padding-left: 0px;
+  margin-left: 0px;
+  background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
+	}
 	
-	.logo {
+.logo {
 	padding-left: 30px;
+	padding-top: 20px;
     width:20%;
 	float:left;
 	}
+.galler {
+	width: 100%;
+	height: 275px;
+}
+
+.flex > * {
+    flex: 0%;
+	}
+.about {
+	margin-top: 20px;
+    text-align: center; 
+    color:#483E3E;
+	font-size:20px;
+	
+	}
+.text_column {
+   
+	font-size: 17px;
+    color:#483E3E;
+	margin-top: 5px;
+    font-weight: 150;
+	text-align:center;
+	font-style:oblique;
+	
+	
 	
 
-	.flex > * {
-  flex: 0%;
-	}
-	.about {
-	margin-left: 0px;
-	margin-top: 16px;
-	padding-top:0px;
-    text-align: center; 
-    color:#188052;	
-}
-	.column{
+    }
+.column{
 	width:98%;
 	height: 100%;
-	padding-left: 1px;
+	padding-left: 2px;
 	}
-	.row {
+.row {
     display:block;
     margin-left: 5px;
 	}
 
-	.flex{
+.flex{
 	flex:100%;
     padding-top: 20px;
     flex-direction:column;
 	width: auto;
 	}
-	.vape  {
+.vape  {
     dsipaly: flex;
 	flex-direction:column;
 	margin-left:10px;
@@ -245,15 +268,15 @@ text-align: center;
 	margin-top: 0px;
 	width:auto;	
 }
-	.text_column_vape {
+.text_column_vape {
 
-    font-family: "Times New Roman";
-	font-size: 14px;
-    color:#056F40;
-    font-weight: 130;
+	font-size: 17px;
+    color:#483E3E;
+    font-weight: 150;
     text-align: center;
+	font-style:oblique;
 	}
-	.image_column_vape {
+.image_column_vape {
     display:flex;
 	flex-direction: column;
 	width:80%;
@@ -263,15 +286,8 @@ text-align: center;
 	margin-left: 47px;
   
 }
-	.text_column {
-    font-family: "Times New Roman";
-	font-size: 14px;
-    color:#056F40;
-    font-weight: 130;
-	text-align: center;
 
-}
-	.container {
+.container {
 
  background-image:url("images/background.png");
  background-color:#332F2C; 
@@ -283,7 +299,7 @@ text-align: center;
 		
 }
 	
-	.section-two{
+.section-two{
   font-family: "Times New Roman";
   font-size: 16px;
   color:#ffffff;
@@ -310,10 +326,10 @@ text-align: center;
 	width: 100%;
        
 	}
-	.name {
+.name {
     margin-left:58px
 	}
-	.message {
+.message {
 	margin-left:40px;
 	margin-top:10px;
 	margin-bottom:0px;
@@ -363,12 +379,12 @@ text-align: center;
 	margin-left: 75px;
     font-family: "Times New Roman";
 	font-size: 20px;
-    color:#056F40;
+    color:#483E3E;
     font-weight: 100;
     text-align:center;
-	}
+	font-style:oblique;
 }
-
+}
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (min-width: 768px) {
   
@@ -404,10 +420,11 @@ text-align: center;
 	margin-left: 75px;
     font-family: "Times New Roman";
 	font-size: 20px;
-    color:#056F40;
+    color:#483E3E;
     font-weight: 100;
     text-align:center;
-	}
+	font-style:oblique;
+}
 }
 /* Small devices (portrait tablets and large phones, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -443,11 +460,11 @@ text-align: center;
 	margin-left: 75px;
     font-family: "Times New Roman";
 	font-size: 20px;
-    color:#056F40;
+    color:#483E3E;
     font-weight: 100;
     text-align:center;
-	}
-	
+	font-style:oblique;
+}
 }
 /* Small devices (portrait tablets and large phones, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -484,10 +501,10 @@ text-align: center;
 	margin-left: 75px;
     font-family: "Times New Roman";
 	font-size: 20px;
-    color:#056F40;
+    color:#483E3E;
     font-weight: 100;
     text-align:center;
-	}
-	
+	font-style:oblique;
+}
 }
 	
