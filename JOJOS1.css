@@ -116,6 +116,9 @@
 	margin: 0;
 	font-style: normal;
 	font-weight: 200;
+	background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
 }	
 
  .about {
@@ -128,7 +131,11 @@
 }
 
 .galler {
-	width: 100%;	
+	width: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+	
 }
 
 
