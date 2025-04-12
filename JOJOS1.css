@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-
-body{
- 	background-color:aliceblue;
-}
-
 .flex {
   display: flex;	
 }
@@ -117,10 +112,8 @@ body{
 /* Body */
 .body {
 	font-family: "Times New Roman";
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	background-color:aliceblue;
+	margin: 0;
 	font-style: normal;
 	font-weight: 200;
 }	
@@ -198,6 +191,10 @@ text-align: center;
 	font-family: "Times New Roman";
 	font-weight: 150;
 	width: 100%;
+	margin: 0;
+	}
+	.body{
+		margin: 0;
 	}
 	
 .header-main {  
