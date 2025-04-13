@@ -65,15 +65,9 @@
 
 }
  
-.text_column {
-   
-	font-size: 22px;
-    color:#483E3E;
-    font-weight: 200;
-	text-align:center;
-	text-emphasis-position: above; 
-	font-style:oblique;
-	padding-bottom: 20px;
+
+.h3 {
+   vertical-align:bottom;
 }
 
  /* Each section will take up 33.33% of the container space */
@@ -85,11 +79,14 @@
 .image_column_vape {
     display:flex;
 	flex-direction: column;
-	width:550px;
-	height: 350px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin-left: 67px;
+	width:470px;
+	height: 420px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+	margin: 20px;
+	
+    
   
 }
 .text_column_vape{
@@ -152,13 +149,15 @@
 }
 .row {
   display:flex;
-  margin-left: 10px;
+	padding-top: 40px;
+  margin-left: 20px;
 }
 
 .column{
-	width:550px;
+	width:200px;
 	height: 300px;
 	padding-left: 10px;
+	diplay:center;
 }
 .name_store{
 text-align: center; 
