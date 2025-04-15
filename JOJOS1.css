@@ -24,7 +24,7 @@
   background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
 	}
 	
-.container {
+.container-fluid {
 
  background-image:url("images/background.png");
  background-color:#332F2C; 
@@ -67,7 +67,12 @@
  
 
 .h3 {
-   vertical-align:bottom;
+   vertical-align:sub;
+	text-align-last: center;
+    color:#483E3E;
+	font-style:oblique;
+	text-align: center;
+	
 }
 
  /* Each section will take up 33.33% of the container space */
@@ -79,28 +84,18 @@
 .image_column_vape {
     display:flex;
 	flex-direction: column;
-	width:470px;
+	width:620px;
 	height: 420px;
-	border: 1px solid #ddd;
-    border-radius: 4px;
+	margin-top: 53px;
     padding: 7px;
-	margin: 20px;
-	
-    
-  
+	align:center;    
 }
-.text_column_vape{
-	font-family: "Times New Roman";
-	font-size: 24px;
-    color:#483E3E;
-    font-weight: 200;
-	font-style:oblique;
-	text-align: center;
-}
+
 .vape  {
     display:flex;  
 	margin-left:115px;
 	margin-bottom: 90px;
+	margin-right: 100px;
 	margin-top: 0px;
 	width:0px;
 	align-items:flex-start;	
@@ -128,10 +123,16 @@
 }
 
 .galler {
-	width: 100%;
-	background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
+	width:520px;
+	height: 370px;
+    padding: 9px;
+	margin-left: 39px;
+			
+}
+.row {
+  display:flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 	
 }
 
@@ -147,18 +148,7 @@
   margin-left:140px;
 
 }
-.row {
-  display:flex;
-	padding-top: 40px;
-  margin-left: 20px;
-}
 
-.column{
-	width:200px;
-	height: 300px;
-	padding-left: 10px;
-	diplay:center;
-}
 .name_store{
 text-align: center; 
 }
@@ -202,7 +192,6 @@ text-align: center;
 	max-height: auto;
 	}
 .body{
-	width:100%;
 	margin: 0;
 	max-width: auto;
 	max-height: auto;
@@ -221,9 +210,16 @@ text-align: center;
     width:20%;
 	float:left;
 	}
+.row {
+    display:block;
+    margin-left: 5px;
+	}
 .galler {
-	width: 100%;
-	height: 275px;
+	width:370px;
+	height: 350px;
+	padding-top: 10%;
+	padding-bottom: 20px;
+	margin-left: 10px;	
 }
 
 .flex > * {
@@ -244,19 +240,16 @@ text-align: center;
     font-weight: 150;
 	text-align:center;
 	font-style:oblique;
-	
-
     }
+
+	
 .column{
 	width:100%;
 	height: 100%;
 	padding-left: 2px;
 
 	}
-.row {
-    display:block;
-    margin-left: 5px;
-	}
+
 
 .flex{
 	flex:100%;
@@ -264,7 +257,7 @@ text-align: center;
     flex-direction:column;
 	}
 .vape  {
-    dsipaly: flex;
+    display: flex;
 	flex-direction:column;
 	margin-bottom: 30px;
 	margin-top: 0px;
@@ -279,16 +272,17 @@ text-align: center;
 	font-style:oblique;
 	
 	}
-.image_column_vape {
-    display:flex;
+.image_column_vape{
+	display:flex;
 	flex-direction: column;
-	width:80%;
+	width:70%;
 	height: 98%;
 	padding-top: 10%;
 	padding-bottom: 20px;
-	margin-left: 47px;
-	
-}
+	margin-left: 10px;
+		
+	}
+
 
 .container {
 
