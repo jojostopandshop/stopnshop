@@ -13,9 +13,17 @@
 	float:left;
 	  
 }
+/* Body */
+.body {
+	font-family: "seirf";
+	background-color:aliceblue;
+	margin: 0;
+	background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}	
 
 .header-main { 
-  
   width:100%;
   padding-top: 0px;
   padding-bottom:110px;
@@ -23,6 +31,16 @@
   margin-left: 0px;
   background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
 	}
+
+.text_column{
+	font-family: "serif";
+    color:#483E3E;
+	font-style:oblique;
+	font-size:x-large;
+	margin-left: 180px;
+	margin-right: 180px;	
+}
+
 	
 .container-fluid {
 
@@ -34,8 +52,8 @@
  padding-bottom: 50px;
  padding-top: 50px;
 }
+
 .link_about{
-	
 	word-spacing: 0px;
     margin-right: 20px;
     font-weight: 200;
@@ -66,19 +84,11 @@
 }
  
 
-.h3 {
-   vertical-align:sub;
-	text-align-last: center;
-    color:#483E3E;
-	font-style:oblique;
-	text-align: center;
-	
-}
 
  /* Each section will take up 33.33% of the container space */
 .flex{
 	flex:33.33%;
-    padding-top: 90px;
+    padding-top: 0px;
 }
 	
 .image_column_vape {
@@ -86,64 +96,64 @@
 	flex-direction: column;
 	width:620px;
 	height: 420px;
-	margin-top: 53px;
-    padding: 7px;
+    padding: 24px;
+	padding-top: 40px;
 	align:center;    
+}
+.text_column_vape{
+	font-family: "serif";
+    color:#483E3E;
+	font-style:oblique;
+	font-size:x-large;
+	margin-left: 0px;
+	margin-right: 80px;
+	font-display: block;
 }
 
 .vape  {
     display:flex;  
 	margin-left:115px;
 	margin-bottom: 90px;
-	margin-right: 100px;
+	margin-right: 40px;
 	margin-top: 0px;
 	width:0px;
 	align-items:flex-start;	
 }
 
-/* Body */
-.body {
-	font-family: "Times New Roman";
-	background-color:aliceblue;
-	margin: 0;
-	font-style: normal;
-	font-weight: 200;
-	background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
-}	
-
  .about {
-	margin-left: 0px;
-	margin-top: 23px;
-	padding-top:0px;
-	font-size: 23px;	
-    text-align: center; 
-    color:#483E3E;	
+	font-family: "serif";
+    color:#483E3E;
+	font-style:oblique;
+	font-size:x-large;
+	text-align: center;
+	padding-top:20px;
+	 
 }
 
 .galler {
-	width:520px;
+	display:row;
+	width:480px;
 	height: 370px;
-    padding: 9px;
-	margin-left: 39px;
+	padding-top:50px;
+	margin-left: 60px;
 			
 }
 .row {
-  display:flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display:row;;
+  padding-top: 0px;
+  padding-bottom: 0px;
 	
 }
 
-
 .name {
     margin-left:70px}
+
 .message {
 	margin-left:45px;
 	margin-top:10px;
 	margin-bottom:0px;
 }
+
 .submit {
   margin-left:140px;
 
@@ -154,8 +164,7 @@ text-align: center;
 }
 
 .wrapper-main{
-	font-family: "Times New Roman";
-	font-weight: 200;
+	font-family: "serif";
 	width: 100%;
 }
 .location{
@@ -219,7 +228,7 @@ text-align: center;
 	height: 350px;
 	padding-top: 10%;
 	padding-bottom: 20px;
-	margin-left: 10px;	
+	margin-left: 8px;	
 }
 
 .flex > * {
@@ -242,20 +251,13 @@ text-align: center;
 	font-style:oblique;
     }
 
-	
-.column{
-	width:100%;
-	height: 100%;
-	padding-left: 2px;
-
-	}
-
 
 .flex{
 	flex:100%;
     padding-top: 20px;
     flex-direction:column;
 	}
+	
 .vape  {
     display: flex;
 	flex-direction:column;
