@@ -43,16 +43,6 @@
 }
 
 	
-.container-fluid {
-
- background-image:url("images/background.png");
- background-color:#332F2C; 
- background-size: cover;
- display: flex;
- flex-direction: row;
- padding-bottom: 50px;
- padding-top: 50px;
-}
 
 .link_about{
 	word-spacing: 0px;
@@ -81,6 +71,7 @@
   color:#ffffff;
   font-weight: 200;
   padding-top: 50px;
+  text-align: center; 
 
 }
  
@@ -95,11 +86,11 @@
 .image_column_vape {
     display:flex;
 	flex-direction: column;
-	width:620px;
-	height: 420px;
-    padding: 24px;
-	padding-top: 80px;
-	align:center;    
+	width:650px;
+	height:350px;
+    padding: 30px;
+	padding-top: 0px;
+    
 }
 .text_column_vape {
 	font-family: "Times New Roman";
@@ -115,10 +106,13 @@
 }
 
 .vape  {
-	margin-left:175px;
+	resize: both;
+	width: 450px;
+	height: 750px;
+	margin-left:0px;
 	margin-bottom: 70px;
-	margin-right: 40px;
-	margin-top: 0px;
+	margin-right: 80px;
+    padding-top: 30px;
 	
 	
 }
@@ -135,10 +129,11 @@
 
 .galler {
 	display:row;
-	width:480px;
+	width:470px;
 	height: 370px;
 	padding-top:50px;
 	margin-left: 60px;
+	padding-bottom: 40px;
 			
 }
 .row {
@@ -146,6 +141,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 	
+}
+.background {
+ background-image:url("images/background.png");
+ background-color:#332F2C; 
+ background-size: cover;
+ display: flex;
+ flex-direction: row;
+ padding-bottom: 50px;
+ padding-top: 50px;
 }
 
 .name {
@@ -193,351 +197,3 @@ text-align: center;
 	}
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-
-.wrapper-main{
-	font-family: "serif";
-	width: 100%;
-	}
-.body{
-	font-family: "Times New Roman";
-	background-color:aliceblue;
-	margin: 0;
-	background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
-	}
-	
-.header-main {  
-  width:100%;
-  height: 70px;
-  padding-bottom:0px;
-  background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
-	}
-	
-.logo {
-	padding-left: 30px;
-	padding-top: 20px;
-    width:20%;
-	float:left;
-	}
-.img-fluid {
-	width:100%;
-		
-	}
-.row {
-    display:table-column;
-    
-	}
-.galler {
-	width:370px;
-	height: 350px;
-	padding-top: 5%;
-	padding-bottom: 20px;
-	margin-left: 24px;	
-}
-
-.flex > * {
-    flex: 0%;
-	}
-.about {
-	margin-top: 10px;
-    text-align: center; 
-    color:#483E3E;
-	font-size:20px;
-	
-	}
-.text_column {
-   
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:medium;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding-top: 10px;
-    }
-
-
-.flex{
-	flex:100%;
-    padding-top: 20px;
-    flex-direction:column;
-	}
-	
-.vape  {
-    display:flex;
-	flex-direction: column;
-	width:89%;
-	height: 100%;
-	padding-top: 10%;
-	padding-top: 20px;
-	margin-left: 15px;
-	
-}
-.text_column_vape {
-    display: flex;
-	flex-direction: column;
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:medium;
-	width:330px;
-	margin-left:  0px;
-	margin-right: 0px;
-	
-	}
-.image_column_vape{
-	display:flex;
-	flex-direction: column;
-	width:90%;
-	height: 100%;
-	padding-top: 5%;
-	padding-bottom: 20px;
-	margin-left: 10px;
-		
-	}
-
-
-.container-fluid {
-
- background-image:url("images/background.png");
- background-color:#332F2C; 
- width:100%;
- background-size:contain;
- display:flex;
- flex-direction:column;
-
-}
-	
-.section-two{
-  font-family: "Times New Roman";
-  font-size: 16px;
-  color:#ffffff;
-  font-weight: 200;
-  margin-left: 70px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-.google-map {
-
-    height: 100%;
-	width: 80%;
-	padding-bottom: 0%;
-	margin-left:40px;
-	margin-top: 0px;
-
-    }
-
-.google-map iframe {
-	position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-	width: 100%;
-       
-	}
-.footer{ 
-  font-family: "Times New Roman";
-  background-color:#332F2C;
-  width:100%;
-  font-size: 20px;
-  color:#ffffff;
-  font-weight: 150px;
-  padding-top: 20px;
- 
-  display:flex;
-  flex-direction:column;
-
-}
-.name_store{
-text-align: center;
-    margin-left: 20px;
-}
-.location{
-	text-align: center;
-	}
-.name {
-    margin-left:58px
-	}
-.message {
-	margin-left:40px;
-	margin-top:10px;
-	margin-bottom:0px;
-}
-}
-
-/* Small devices (portrait tablets and large phones, 601px and up) */
-@media only screen and (min-width: 601px) {
- .wrapper-main{
-	font-family: "Times New Roman";
-	width: 100%;
-	}
- .column{
-	width:100%;
-	height: 300px;
-	padding-left: 10px;
-	 
-}
-	.flex > * {
-  flex: 50%;
-}
-
-.section-two{
-  font-family: "Times New Roman";
-  font-size: 20px;
-  color:#ffffff;
-  font-weight: 200;
-  margin-left: 120px;
-  margin-top: 150px;
-}
-	.flex{
-	flex:33.33%;
-    padding-top: 90px;
-	}
-		.vape  {
-    display:flex;  
-	flex-direction: column;
-	width: 600px;
-	higth:850px;
-	margin-left:175px;
-	margin-bottom: 90px;
-	margin-right: 10px;
-	margin-top: 0px;
-
-	
-}
-	.text_column_vape {
-
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	margin-left: 180px;
-	margin-right: 180px;
-}
-}
-/* Small devices (portrait tablets and large phones, 768px and up) */
-@media only screen and (min-width: 768px) {
-  
- .wrapper-main{
-	font-family: "Times New Roman";
-	width: 100%;
-}
-	.flex > * {
-  flex: 50%;
-}
-
-	.column{
-	width:100%;
-	height: 300px;
-	padding-left: 10px;
-}
-	.flex{
-	flex:33.33%;
-    padding-top: 90px;
-}
-	.vape  {
-     display:flex;  
-	flex-direction: column;
-	width: 600px;
-	higth:850px;
-	margin-left:175px;
-	margin-bottom: 90px;
-	margin-right: 10px;
-	margin-top: 0px;
-
-	
-}
-	.text_column_vape {
-
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	margin-left: 180px;
-	margin-right: 180px;
-}
-}
-/* Small devices (portrait tablets and large phones, 992px and up) */
-@media only screen and (min-width: 992px) {
-  	
-.wrapper-main{
-	font-family: "Times New Roman";
-	width: 100%;
-}
-.flex > * {
-  flex: 50%;
-	}
-	.column{
-	width:100%;
-	height: 300px;
-	padding-left: 10px;
-	}
-	.flex{
-	flex:33.33%;
-    padding-top: 90px;
-}
-	.vape  {
-    display:flex;  
-	flex-direction: column;
-	width: 600px;
-	higth:850px;
-	margin-left:175px;
-	margin-bottom: 90px;
-	margin-right: 10px;
-	margin-top: 0px;
-	
-}
-	.text_column_vape {
-
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	margin-left: 180px;
-	margin-right: 180px;
-}
-}
-/* Small devices (portrait tablets and large phones, 1200px and up) */
-@media only screen and (min-width: 1200px) {
- 
-.wrapper-main {
-	font-family: "Times New Roman";
-	width: 100%;
-}
-	.flex > * {
-  flex: 50%;
-}
-
-	.column{
-	width:100%;
-	height: 300px;
-	padding-left: 10px;
-	}
-	.flex{
-	flex:33.33%;
-    padding-top: 90px;
-}
-	.vape  {
-     display:flex;  
-	flex-direction: column;
-	width: 600px;
-	higth:850px;
-	margin-left:175px;
-	margin-bottom: 90px;
-	margin-right: 10px;
-	margin-top: 0px;
-	
-}
-	.text_column_vape {
-
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	margin-left: 180px;
-	margin-right: 180px;
-}
-}
