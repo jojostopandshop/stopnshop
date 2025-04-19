@@ -54,27 +54,19 @@
 	text-decoration: none;	
 }
 
+.section-one{
+	align:left;
+}
+
 
 .section-two{
   font-family: "Times New Roman";
   font-size: 20px;
   color:#ffffff;
   font-weight: 200;
-  margin-left: 0px;
-  margin-top: 0px;
+  margin-left: 40px;
+  margin-top: 60px;
 }
-
-.footer{ 
-  font-family: "Times New Roman";
-  background-color:#332F2C;
-  font-size: 20px;
-  color:#ffffff;
-  font-weight: 200;
-  padding-top: 50px;
-  text-align: center; 
-
-}
- 
 
 
  /* Each section will take up 33.33% of the container space */
@@ -84,12 +76,19 @@
 }
 	
 .image_column_vape {
-    display:flex;
+    font-family: "Times New Roman";
+    color:#483E3E;
+	font-style:oblique;
+	font-size:x-large;
+	margin-left: 90px;
+	margin-right: 90px;
+	position: static;
+	display:flex;
 	flex-direction: column;
 	width:650px;
 	height:350px;
     padding: 30px;
-	padding-top: 0px;
+	padding-bottom:25px;
     
 }
 .text_column_vape {
@@ -109,7 +108,7 @@
 	resize: both;
 	width: 450px;
 	height: 750px;
-	margin-left:0px;
+	margin-left:30px;
 	margin-bottom: 70px;
 	margin-right: 80px;
     padding-top: 30px;
@@ -142,16 +141,26 @@
   padding-bottom: 0px;
 	
 }
-.background {
+.container-main {
+ 
  background-image:url("images/background.png");
- background-color:#332F2C; 
- background-size: cover;
- display: flex;
- flex-direction: row;
+ background-size:auto;
+ background-color: #342F2C;
+ width:100%;
+ display:flex;
  padding-bottom: 50px;
  padding-top: 50px;
 }
+.footer{ 
+  font-family: "Times New Roman";
+  background-color:#332F2C;
+  font-size: 20px;
+  color:#ffffff;
+  font-weight: 200;
+  padding-top: 50px;
+  text-align: center; 
 
+}
 .name {
     margin-left:70px}
 
@@ -195,5 +204,149 @@ text-align: center;
 	width: 100%;
        
 	}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+
+
+.wrapper-main{
+	width:80%;
+	}
+.logo {
+	padding-left: 30px;
+	padding-top: 20px;
+    width:20%;
+	float:left;
+	}
+.img-fluid {
+	width:100%;
+		
+	}
+.row {
+    display:flex;
+	flex-direction: column;
+    
+	}
+.galler {
+	width:80%;
+	height: 80%;
+	padding-top: 5%;
+	padding-bottom: 20px;
+	margin-left: 0px;	
+}
+
+.flex > * {
+    flex: 0%;
+	}
+.about {
+	margin-top: 10px;
+    text-align: center; 
+    color:#483E3E;
+	font-size:20px;
+	
+	}
+.text_column {
+   
+	font-family: "Times New Roman";
+    color:#483E3E;
+	font-style:oblique;
+	font-size:medium;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
+    }
+
+
+.flex{
+	flex:50%;
+    padding-top: 20px;
+    flex-direction:column;
+	}
+	
+.vape  {
+    display:flex;
+	flex-direction: column;
+	width:89%;
+	height: 100%;
+	padding-top: 20px;
+	margin-left: 15px;
+	
+}
+.text_column_vape {
+    
+	align-content: center;
+	font-style:oblique;
+	font-size:medium;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	}
+.image_column_vape{
+	display:flex;
+	flex-direction: column;
+	width:90%;
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 20px;
+	margin-left: 0px;
+		
+	}
+	
+.section-two{
+  font-family: "Times New Roman";
+  font-size: 16px;
+  color:#ffffff;
+  font-weight: 200;
+  margin-left: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.google-map {
+
+    height: 100%;
+	width: 80%;
+	padding-bottom: 0%;
+	margin-left:40px;
+	margin-top: 0px;
+
+    }
+
+.google-map iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+	width: 100%;
+       
+	}
+.footer{ 
+ 
+  font-weight: 150px;
+  padding-top: 20px;
+  
+}
+.container-main {
+	diplay:flex;
+	flex-direction: column;
+	}
+.name_store{
+text-align: center;
+    margin-left: 20px;
+}
+.location{
+	text-align: center;
+	}
+.name {
+    margin-left:58px
+	}
+.message {
+	margin-left:40px;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+}
 
 
