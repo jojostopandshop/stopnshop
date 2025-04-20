@@ -206,17 +206,17 @@
 .header-main { 
   width:100%;
   padding-top: 0px;
-  padding-bottom:50px;
+  padding-bottom:52px;
   padding-left: 0px;
   margin-left: 0px;
-  background: linear-gradient(180deg, #342F2C 25%, #000000 25%);
+  background: linear-gradient(180deg, #342F2C 30%, #000000 20%);
 	}
 .img-fluid{
     min-height: 300px;
 	}
 .logo {
 	padding-left: 30px;
-	padding-top: 6px;
+	padding-top: 2px;
     width:20%;
 	float:left;
 	}
