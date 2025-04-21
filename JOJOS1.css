@@ -331,7 +331,7 @@
 
 
 /* Small devices (portrait tablets and large phones, up to 600px) */
-@media  (max-width:1366px) {
+@media  (max-width:601-1366px) {
 	
 .galler {
 	width:45%;
