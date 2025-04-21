@@ -37,6 +37,7 @@
     color:#483E3E;
 	font-style:oblique;
 	font-size:x-large;
+	padding-top:30px;
 	margin-left: 180px;
 	margin-right: 180px;
 	position: static;
@@ -91,20 +92,9 @@
 	margin-left:30px;
 	margin-bottom: 70px;
 	margin-right: 60px;
-    padding-top: 30px;
-	
-	
+    padding-top: 30px;		
 }
 
- .about {
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	text-align: center;
-	padding-top:20px;
-	 
-}
 
 .galler {
 	display:row;
