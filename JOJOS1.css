@@ -293,7 +293,8 @@
 	}
 .footer{ 
     font-weight: 150px;
-    padding-top: 20px;  
+    padding-top: 20px; 
+	text-decoration: none;
 }
 .container-main{
 	diplay:flex;
