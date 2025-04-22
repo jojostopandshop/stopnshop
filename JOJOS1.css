@@ -331,9 +331,9 @@
 
 
 /* Small devices (portrait tablets and large phones, up to 600px) */
-@media screen and (min-width:601-1199) {
+@media screen and (min-width:601-1024){
 	
-.galler {
+.galler { 
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -375,6 +375,7 @@
     padding: 30px;
 	padding-bottom:25px;
 }
+	
 	.flex  {
   display:flex;
  align-content: flex-start;
