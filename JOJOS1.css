@@ -31,18 +31,6 @@
   margin-left: 0px;
   background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
 	}
-
-.text_column{
-	font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	padding-top:30px;
-	margin-left: 180px;
-	margin-right: 180px;
-	position: static;
-}
-
 	
 
 .link_about{
@@ -58,46 +46,49 @@
 	text-decoration: none;
 }
 
-	
-.image_column_vape {
-    font-family: "Times New Roman";
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	margin-left: 90px;
-	margin-right: 90px;
-	position: static;
-	display:flex;
-	flex-direction: column;
-	width:650px;
-	height:350px;
-    padding: 30px;
-	padding-bottom:25px;
-    
-}
-.text_column_vape {
+
+.text_column {	
 	font-family: "Times New Roman";
     color:#483E3E;
 	font-style:oblique;
-	font-size: x-large;
-	text-align-last:center;
-	padding-top: 10px;
-	padding-left: 0px;
-	margin-right: 0px;
-	font-display:block;
-	position: static;
+	font-size:x-large;
+	padding-top:30px;
+	margin-left: 180px;
+	margin-right: 180px;
+	text-align: center;
+}
+	
+.container {
+  display: flex;
+  display:inline-flex;
+  padding-top: 50px;
+}
+.vape  {	
+	width:65%;
+    margin-right:100px;
+	margin-left: 100px;
+	float:left;
 }
 
-.vape  {
-	resize: both;
-	width: 450px;
-	height: 750px;
-	margin-left:30px;
-	margin-bottom: 70px;
-	margin-right: 20px;
-    padding-top: 30px;		
+.right-images {
+  width:100%;
+  float: right;
+  display: flex;
+  padding-left:0px;
+  flex-direction: column; /* Stack the images vertically */
 }
 
+.top-image {
+  width: 550px;/* Or any desired width */
+  height: 450px;
+  padding-bottom:70px;
+}
+
+.bottom-image {
+ width: 550px; /* Or any desired width */
+ height: 450px;
+ pading-top: 40px;	
+}
 
 .galler {
 	display:row;
@@ -239,65 +230,64 @@
 	flex-direction: column;  
 	}	
 
-.text_column { 
+.text_column {	
 	font-family: "Times New Roman";
     color:#483E3E;
 	font-style:oblique;
 	font-size:large;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding-top: 10px;
-    }
-.flex{
-	flex:50%;
-    padding-top: 20px;
-    flex-direction:column;
-	}	
-.vape  {
-    display:flex;
-	flex-direction: column;
-	width:89%;
-	height: 100%;
-	padding-top: 20px;
+	padding-top:30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.vape  {	
+	width:90%;
+    margin-right:0px;
 	margin-left: 20px;	
 }
-.text_column_vape {	
-	font-style:oblique;
-	font-size:large;
-	margin-left: 10px;
-	margin-right: 0px;
-	margin-bottom: 0px;	
-	}
-.image_column_vape{
-	display:flex;
-	flex-direction: column;
-	width:100%;
-	height: 100%;
-	padding-top: 5%;
-	padding-bottom: 10px;
-	margin-left: 0px;			
-	}
-.google-map {
-    height: 100%;
-	width: 100%;
-	padding-bottom:0px;
-	margin-left:0px;
-	margin-top: 0px;
-    }
-.google-map iframe {
 	
+.top-image {
+  width:90%;/* Or any desired width */
+  height: 80%;
+  padding-bottom:50px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.bottom-image {
+ width:90%; /* Or any desired width */
+ height:80%;
+ pading-top: 20px;
+ margin-bottom: 30px;
+ margin-left: 15px;
+}
+.google-map iframe {	
     top: 0;
     left: 0;
     height: 100%;
 	width: 100%;      
 	}
+	.google-map {
+    height: 250px;
+	width: 300px;
+	position: static;
+	padding-bottom: 0%;
+	margin-left:0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
 .footer{ 
     font-weight: 150px;
     padding-top: 20px; 
 	text-decoration: none;
 }
 .container-main{
-	diplay:flex;
+	dsiplay:flex;
 	flex-direction: column;
 	}
 .name_store{
@@ -330,55 +320,69 @@
 }
 
 
-/* Small devices (portrait tablets and large phones, up to 600px) */
-@media screen and (min-width:601-1024){
-	
+/* Styles for iPad Pro 12.9" */
+@media only screen and (min-width:601px) and (max-width:1366px) {  
+
 .galler { 
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	width:20%;
-	height: 80%;
+	width:420px;
+	height: 350px;
 	padding-top: 0%;
 	padding-bottom: 30px;
-	margin-left:0px;
+	margin-left:15px;
 	margin-bottom: 20px;
 }
 	.text_column_vape {	
-     
-	font-style:oblique;
-	font-size:medium;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;	
-	}
-	.vape  {
-    display:flex;
-	flex-direction: column;
-	width:95%;
-	height: 100%;
-	padding-top: 20px;
-	margin-left: 20px;	
-}
-	.image_column_vape {
-    font-family: "Times New Roman";
+	diplay:flex;
+	flex-direction:row;
+	text-align:center;	
     color:#483E3E;
 	font-style:oblique;
-	font-size:large;
-	margin-left: 90px;
-	margin-right: 90px;
-	position: static;
-	display:flex;
-	flex-direction: column;
-	width:50px;
-	height:50px;
-    padding: 30px;
-	padding-bottom:25px;
+	font-size:x-large;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	}
+	
+	.align-text-top{
+	align-content:center;
+	}
+	
+.container {
+  display: flex;
+}
+.vape  {
+	width: 470px;
+	margin-left:0px;
+	margin-bottom: 70px;
+	margin-right: 60px;
+    padding-top: 30px;		
+}
+
+
+.left-image {
+  width: 50%; /* Or any desired width */
+  float: left;
+}
+
+.right-images {
+  width: 50%;
+  float: right;
+  display: flex;
+  pading-top: 20px;
+  flex-direction: column; /* Stack the images vertically */
+}
+
+.top-image {
+  width: 100%; /* Or any desired width */
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.bottom-image {
+ width: 100%; /* Or any desired width */
+ pading-top: 20px;
+ margin-bottom: 15px;
 }
 	
-	.flex  {
-  display:flex;
- align-content: flex-start;
- 
-}
+
 }
