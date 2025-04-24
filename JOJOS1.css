@@ -178,7 +178,7 @@
 
 
 /* Small devices (portrait tablets and large phones, up to 600px) */
-@media  screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
 
 
 .body {
@@ -321,7 +321,7 @@
 
 
 /* Styles for iPad Pro 12.9" */
-@media only screen and (min-width:601px) and (max-width:1366px) {  
+@media all and (min-width:601px) and (max-width:1366px) {  
 
 .galler { 
 	width:420px;
@@ -382,7 +382,5 @@
  width: 100%; /* Or any desired width */
  pading-top: 20px;
  margin-bottom: 15px;
-}
-	
-
+}	
 }
