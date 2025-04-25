@@ -91,7 +91,7 @@
 }
 
 .galler {
-	display:row;
+	
 	width:470px;
 	height: 370px;
 	padding-top:50px;
@@ -99,12 +99,11 @@
 	padding-bottom: 40px;
 			
 }
-.row {
-  display:row;;
-  padding-top: 0px;
-  padding-bottom: 0px;
-	
-}
+.img-fluid {
+	display:flex;
+	flex-direction:row;	
+		
+	}
 
 .container-main {
  
@@ -224,12 +223,12 @@
 	padding-bottom: 10px;
 	margin-left:37px;	
 }
-.row {
-	width: 100%;
-    display:flex;
-	flex-direction: column;  
-	}	
 
+	.img-fluid {
+	display:flex;
+	flex-direction:column;	
+		
+	}
 .text_column {	
 	font-family: "Times New Roman";
     color:#483E3E;
@@ -323,15 +322,21 @@
 	
 @media all and (min-width:601px) and (max-width:1366px) {  
 
-.galler { 
-	width:420px;
-	height: 350px;
-	padding-top: 0%;
-	padding-bottom: 30px;
-	margin-left:15px;
-	margin-bottom: 20px;
+.galler {
+	
+	width:370px;
+	height: 450px;
+	padding-top: 5%;
+	padding-bottom: 10px;
+	margin-left:13px;	
 }
-	.text_column_vape {	
+.img-fluid {
+	display:flex;
+	flex-direction:row;	
+		
+	}
+
+.text_column_vape {	
 	diplay:flex;
 	flex-direction:row;
 	text-align:center;	
@@ -343,7 +348,7 @@
 	margin-bottom: 20px;
 	}
 	
-	.align-text-top{
+.align-text-top{
 	align-content:center;
 	}
 	
@@ -388,18 +393,18 @@
   /* Styles for portrait mode on iPad Pro 12.9-inch */
 	
 .galler {
+	
 	width:320px;
-	height: 270px;
+	height: 370px;
 	padding-top: 5%;
 	padding-bottom: 10px;
 	margin-left:13px;	
 }
-.row {
-	width: 100%;
-    display:flex;
-	flex-direction:row;  
-	
-	}		
+	.img-fluid {
+	display:flex;
+	flex-direction:row;	
+		
+	}
 
 .google-map iframe {	
     top: 0;
