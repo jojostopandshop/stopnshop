@@ -91,7 +91,7 @@
 }
 
 .galler {
-	
+	display:row;
 	width:470px;
 	height: 370px;
 	padding-top:50px;
@@ -99,11 +99,12 @@
 	padding-bottom: 40px;
 			
 }
-.img-fluid {
-	display:flex;
-	flex-direction:row;	
-		
-	}
+.row {
+  display:row;;
+  padding-top: 0px;
+  padding-bottom: 0px;
+	
+}
 
 .container-main {
  
@@ -223,12 +224,12 @@
 	padding-bottom: 10px;
 	margin-left:37px;	
 }
+.row {
+	width: 100%;
+    display:flex;
+	flex-direction: column;  
+	}	
 
-	.img-fluid {
-	display:flex;
-	flex-direction:column;	
-		
-	}
 .text_column {	
 	font-family: "Times New Roman";
     color:#483E3E;
@@ -321,89 +322,83 @@
 
 	
 @media all and (min-width:601px) and (max-width:1366px) {  
+/* Styles for landscape mode on iPad Pro 12.9-inch */
 
-.galler {
-	
-	width:370px;
-	height: 450px;
-	padding-top: 5%;
-	padding-bottom: 10px;
-	margin-left:13px;	
-}
-.img-fluid {
-	display:flex;
-	flex-direction:row;	
-		
-	}
-
-.text_column_vape {	
-	diplay:flex;
-	flex-direction:row;
-	text-align:center;	
-    color:#483E3E;
-	font-style:oblique;
-	font-size:x-large;
-	margin-left: 50px;
-	margin-right: 50px;
+.galler { 	
+	width:420px;
+	height: 350px;
+	padding-top: 0%;
+	padding-bottom: 30px;
+	margin-left:20px;
 	margin-bottom: 20px;
-	}
-	
-.align-text-top{
-	align-content:center;
-	}
-	
-.container {
-  display: flex;
 }
+.container-fluid {
+	display:flex;
+	flex-direction:row;		
+	}
+.container {
+    display: flex;
+    }
 .vape  {
 	width: 470px;
 	margin-left:0px;
 	margin-bottom: 70px;
 	margin-right: 60px;
     padding-top: 30px;		
-}
-
-
+    }
 .left-image {
   width: 50%; /* Or any desired width */
   float: left;
-}
-
+  }
 .right-images {
   width: 50%;
   float: right;
   display: flex;
   pading-top: 20px;
   flex-direction: column; /* Stack the images vertically */
-}
-
+  }
 .top-image {
   width: 100%; /* Or any desired width */
   padding-top:40px;
   padding-bottom:40px;
-}
-
+  }
 .bottom-image {
  width: 100%; /* Or any desired width */
  pading-top: 20px;
  margin-bottom: 15px;
-}	
+ }
+.google-map iframe {	
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ margin-right:30px;
+ }
+.google-map {
+ height:350px;
+ width: 350px;
+ position: static;
+ padding-bottom: 0%;
+ margin-left:0px;
+ margin-right: 0px;
+ margin-top: 0px;
 }
-@media screen and (min-width: 1024px) {
+}
+
+
+@media screen and (max-width: 1024px) {
   /* Styles for portrait mode on iPad Pro 12.9-inch */
 	
-.galler {
-	
-	width:320px;
-	height: 370px;
+.galler {	
+	width:650px;
+	height: 400px;
 	padding-top: 5%;
 	padding-bottom: 10px;
-	margin-left:13px;	
+	margin-left:188px;	
 }
-	.img-fluid {
+.container-fluid {
 	display:flex;
-	flex-direction:row;	
-		
+	flex-direction:column;			
 	}
 
 .google-map iframe {	
@@ -456,7 +451,7 @@
 	margin-left:39px;
 	margin-top:5px;
 	margin-bottom:0px;
-}
+    }
 }
 
 
