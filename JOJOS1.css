@@ -549,7 +549,7 @@ html, body {
 }
 
 
-@media (min-width:601px) and (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1024px) {
   /* Styles for portrait mode on iPad Pro 12.9-inch */
 	
 .header-main { 
@@ -590,9 +590,11 @@ html, body {
   display: flex;
   gap: 20px;
   align-content: flex-start;
-  margin-left: 0px;  
+  margin-left: 40px;  
 }
-
+.top-row{
+  margin-left: 80px;
+    }
 .top-row img,
 .bottom-row img {
   flex: 1;
