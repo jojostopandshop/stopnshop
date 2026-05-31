@@ -560,10 +560,10 @@ html, body {
   margin-left: 0px;
   background: linear-gradient(180deg, #342F2C 50%, #000000 50%);
 	}
-.logo img {
-        width: 100px;
-        height: 80px;
-        padding-top: 20px;
+
+    .logo {
+        padding-right: 40px;
+        padding-top: 15px;
     }
 .page-links{
  position: absolute;
