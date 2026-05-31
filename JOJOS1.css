@@ -383,7 +383,7 @@ html, body {
 
 
 	
-@media  (min-width:391px) and (max-width:768px) {  
+@media  (min-width:391px) and (max-width:440px) {  
 /* Styles for landscape mode on iPad Pro 12.9-inch */
 
     html, body {
@@ -549,7 +549,7 @@ html, body {
 }
 
 
-@media (min-width:768px) and (max-width: 1024px) {
+@media (min-width:441px) and (max-width: 768px) {
   /* Styles for portrait mode on iPad Pro 12.9-inch */
 	
 .header-main { 
